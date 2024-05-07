@@ -1,4 +1,7 @@
 package 자바_예제문제실습;
+
+import java.io.Serializable;
+
 /*
  캡슐화
  String 사람이름 김영희
@@ -8,7 +11,9 @@ package 자바_예제문제실습;
  
  PersonMain person.txt저장
  */
-public class Person {
+//public class Person {
+// 다른데서 데이터를 사용할 수 있으니 직렬화 표현해줘라
+public class Person implements Serializable {
 // 필드
 	private String 사람이름;
 	private int 나이;
