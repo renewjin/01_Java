@@ -1,0 +1,6 @@
+package com.kh.oop.pre;
+// 모양 인터페이스
+public interface Shape {
+
+	public double area();
+}

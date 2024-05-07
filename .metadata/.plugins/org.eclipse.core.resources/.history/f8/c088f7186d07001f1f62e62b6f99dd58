@@ -1,0 +1,29 @@
+package com.kh.test.main;
+
+public class ParseString {
+	public static void main(String[] args) {
+		String str1 = "123";
+		int num1 = Integer.parseInt(str1);
+		System.out.println("문자열을 정수로 변환한 결과 : " + num1);
+		
+		String str2 = "123.45";
+		double num2 = Double.parseDouble(str2);
+		System.out.println("문자열을 실수로 변환한 결과 : " + num2);
+		
+		// 정수를 문자열로 변환
+		int num3 = 123;
+		String str3 = Integer.toString(num3);
+		System.out.println("정수를 문자열로 변환한 결과 : " + str3);
+		
+		double num4 = 123.45;
+		String str4 = Double.toString(num4);
+		System.out.println("실수를 문자열로 변환한 결과 : " + str4);
+		
+		// 문자열에서 - 하이픈 제거
+		String phoneNumber3 = "010-1234-5678";
+		// replace 어떤 값을 모두 변경
+		// ""안에 아무것도 작성해주지 않으면 삭제라는 의미로 사용
+		String 하이픈제거 = phoneNumber3.replace("-","");
+		System.out.println("하이플이 제거된 핸드폰 번호 : " + 하이픈제거);
+	}
+}

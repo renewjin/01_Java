@@ -1,0 +1,12 @@
+package ncs.test6;
+
+import java.util.Scanner;
+
+public class ExceptionTest {
+	public static void main(String[] args) throws InvalidException {
+		
+		Calculator 계산기 = new Calculator();
+		계산기.getSum();
+		
+	}
+}

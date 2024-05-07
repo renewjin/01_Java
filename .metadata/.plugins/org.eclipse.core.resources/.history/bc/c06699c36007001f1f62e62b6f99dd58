@@ -1,0 +1,6 @@
+package com.kh.oop.pre;
+
+public interface Shape {
+// 메서드
+	public double Area();
+}

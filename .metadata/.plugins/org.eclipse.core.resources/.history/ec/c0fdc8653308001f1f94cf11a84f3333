@@ -1,0 +1,10 @@
+package com.kh.goodShop;
+
+public class GoodShop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
