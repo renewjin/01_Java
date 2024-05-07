@@ -10,8 +10,8 @@ package 자바_예제문제실습;
  */
 public class Person {
 // 필드
-	private String 사람이름 = "김영희";
-	private int 나이 = 10;
+	private String 사람이름;
+	private int 나이;
 	
 // 메서드
 	// 기본
