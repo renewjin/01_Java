@@ -7,12 +7,7 @@ public class 샌드위치가게 {
 	public static void main(String[] args) {
 		// 주문리스트 ArrayList
 		ArrayList<샌드위치> 주문리스트 = new ArrayList<>();
-		
-		// "김하나", "BLT"
-		// "이둘", "터키"
-		// "김하나", "치킨"
-		// "이둘", "에그마요"
-		// "김하나", "베지터블"		
+			
 		주문리스트.add(new 샌드위치("김하나", "BLT"));
 		주문리스트.add(new 샌드위치("이둘", "터키"));
 		주문리스트.add(new 샌드위치("김하나", "치킨"));

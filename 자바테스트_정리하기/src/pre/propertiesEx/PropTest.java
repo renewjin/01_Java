@@ -39,7 +39,15 @@ public class PropTest {
 			
 			List<Movies> 영화들 = new ArrayList<>();
 			for (String key : p.stringPropertyNames()) {
+				String [] values = p.getProperty(key).split(",");
 				
+				// 각 값들의 형태를 맞춰 객체에 넣어줘야함
+				String 제목 = values[0];
+				int 평점 = Integer.parseInt(values[1]);
+				int 출시년도 = Integer.parseInt(values[2]);
+				
+				Movies 영화 = new Movies(제목, 평점, 출시년도);
+				영화들.add(영화);
 			}
 			
 		} catch (Exception e) {
